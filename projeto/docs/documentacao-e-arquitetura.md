@@ -42,22 +42,6 @@ Software deve permitir acessar a lista de pedidos do dia ou total (feature "Arre
 
 Facilitar o armazenamento dos pedidos feito para referência do negócio e o funcionamento do caixa, que pode facilmente pedir um combo ou um pedido com várias modificações.
 
-<div class="formalpara-title">
-
-**Form**
-
-</div>
-
-Short textual description, probably in tabular use-case format. If
-requirements documents exist this overview should refer to these
-documents.
-
-Keep these excerpts as short as possible. Balance readability of this
-document with potential redundancy w.r.t to requirements documents.
-
-See [Introduction and Goals](https://docs.arc42.org/section-1/) in the
-arc42 documentation.
-
 ## Objetivos de qualidade
 
 <div class="formalpara-title">
