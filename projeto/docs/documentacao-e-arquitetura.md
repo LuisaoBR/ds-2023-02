@@ -1,14 +1,13 @@
 # 
 
-**About arc42**
+**Sobre arc42**
 
-arc42, the template for documentation of software and system
-architecture.
+arc42, um template para documentação de software e arquitetura de sistemas.
 
-Template Version 8.2 EN. (based upon AsciiDoc version), January 2023
+Versão 8.2 EN. (baseado na versão ASCIIDoc), Janeiro de 2023
 
-Created, maintained and © by Dr. Peter Hruschka, Dr. Gernot Starke and
-contributors. See <https://arc42.org>.
+Criado, mantido e © por Dr. Peter Hruschka, Dr. Gernot Starke e
+contribuidores. Visite <https://arc42.org>.
 
 <div class="note">
 
@@ -19,42 +18,29 @@ concepts. For documentation of your own system you use better the
 
 </div>
 
-# Introduction and Goals
+# Introdução e Objetivos
 
-Describes the relevant requirements and the driving forces that software
-architects and development team must consider. These include
+Uma lanchonete precisa de um software para automatizar o processo de criação de seus produtos, dentre eles, diferentes tipos de sanduíches e acompanhamentos, como batatas fritas, ovos fritos, molhos, bacon e refrigerantes. 
+</br>Um problema enfrentado pela lanchonete consiste na personalização, pois há dias específicos em que ocorrem promoções e são vendidos combos especiais, que incluem sanduíches e acompanhamentos. 
+</br> O software também deve registrar as vendas do dia. 
 
--   underlying business goals,
-
--   essential features,
-
--   essential functional requirements,
-
--   quality goals for the architecture and
-
--   relevant stakeholders and their expectations
-
-## Requirements Overview
+## Visão geral dos requerimentos
 
 <div class="formalpara-title">
 
-**Contents**
+**Conteúdo**
 
 </div>
 
-Short description of the functional requirements, driving forces,
-extract (or abstract) of requirements. Link to (hopefully existing)
-requirements documents (with version number and information where to
-find it).
+Software deve permitir acessar a lista de pedidos do dia ou total (feature "Arrecadamento") e fazer novos pedidos de acordo com o desejo do cliente (feature "Novo Pedido"). 
 
 <div class="formalpara-title">
 
-**Motivation**
+**Motivação**
 
 </div>
 
-From the point of view of the end users a system is created or modified
-to improve support of a business activity and/or improve the quality.
+Facilitar o armazenamento dos pedidos feito para referência do negócio e o funcionamento do caixa, que pode facilmente pedir um combo ou um pedido com várias modificações.
 
 <div class="formalpara-title">
 
@@ -72,11 +58,11 @@ document with potential redundancy w.r.t to requirements documents.
 See [Introduction and Goals](https://docs.arc42.org/section-1/) in the
 arc42 documentation.
 
-## Quality Goals
+## Objetivos de qualidade
 
 <div class="formalpara-title">
 
-**Contents**
+**Conteúdos**
 
 </div>
 
@@ -112,49 +98,11 @@ A table with quality goals and concrete scenarios, ordered by priorities
 
 ## Stakeholders
 
-<div class="formalpara-title">
 
-**Contents**
-
-</div>
-
-Explicit overview of stakeholders of the system, i.e. all person, roles
-or organizations that
-
--   should know the architecture
-
--   have to be convinced of the architecture
-
--   have to work with the architecture or with code
-
--   need the documentation of the architecture for their work
-
--   have to come up with decisions about the system or its development
-
-<div class="formalpara-title">
-
-**Motivation**
-
-</div>
-
-You should know all parties involved in development of the system or
-affected by the system. Otherwise, you may get nasty surprises later in
-the development process. These stakeholders determine the extent and the
-level of detail of your work and its results.
-
-<div class="formalpara-title">
-
-**Form**
-
-</div>
-
-Table with role names, person names, and their expectations with respect
-to the architecture and its documentation.
-
-| Role/Name   | Contact        | Expectations       |
-|-------------|----------------|--------------------|
-| *\<Role-1>* | *\<Contact-1>* | *\<Expectation-1>* |
-| *\<Role-2>* | *\<Contact-2>* | *\<Expectation-2>* |
+| Nome   |  Expectativas       
+|-------------|----------------|
+| Gerente da lanchonete | Consegue acessar e entender a função arrecadamento |
+| Operador de caixa | Consegue acessar e entender a função "novo pedido" |
 
 # Architecture Constraints
 
@@ -193,85 +141,26 @@ documentation or naming conventions)
 See [Architecture Constraints](https://docs.arc42.org/section-2/) in the
 arc42 documentation.
 
-# System Scope and Context
+# Escopo de Sistema e Contexto
 
 <div class="formalpara-title">
 
-**Contents**
+**Conteúdo**
 
 </div>
 
-System scope and context - as the name suggests - delimits your system
-(i.e. your scope) from all its communication partners (neighboring
-systems and users, i.e. the context of your system). It thereby
-specifies the external interfaces.
+Sistema Windows 10 que roda localmente em um computador pessoal e armazena dados localmente, sem contato via internet com outro sistemas.
+<div class="formalpara-title">
 
-If necessary, differentiate the business context (domain specific inputs
-and outputs) from the technical context (channels, protocols, hardware).
+**Motivação**
+
+</div>
+
+Como o sistema só atende um único negócio, não é necessário a comunicação com outros sistemas.
 
 <div class="formalpara-title">
 
-**Motivation**
 
-</div>
-
-The domain interfaces and technical interfaces to communication partners
-are among your system’s most critical aspects. Make sure that you
-completely understand them.
-
-<div class="formalpara-title">
-
-**Form**
-
-</div>
-
-Various options:
-
--   Context diagrams
-
--   Lists of communication partners and their interfaces.
-
-See [Context and Scope](https://docs.arc42.org/section-3/) in the arc42
-documentation.
-
-## Business Context
-
-<div class="formalpara-title">
-
-**Contents**
-
-</div>
-
-Specification of **all** communication partners (users, IT-systems, …)
-with explanations of domain specific inputs and outputs or interfaces.
-Optionally you can add domain specific formats or communication
-protocols.
-
-<div class="formalpara-title">
-
-**Motivation**
-
-</div>
-
-All stakeholders should understand which data are exchanged with the
-environment of the system.
-
-<div class="formalpara-title">
-
-**Form**
-
-</div>
-
-All kinds of diagrams that show the system as a black box and specify
-the domain interfaces to communication partners.
-
-Alternatively (or additionally) you can use a table. The title of the
-table is the name of your system, the three columns contain the name of
-the communication partner, the inputs, and the outputs.
-
-**\<Diagram or Table>**
-
-**\<optionally: Explanation of external domain interfaces>**
 
 ## Technical Context
 
