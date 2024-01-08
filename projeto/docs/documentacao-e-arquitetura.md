@@ -33,6 +33,62 @@ Uma lanchonete precisa de um software para automatizar o processo de criação d
 </div>
 
 Software deve permitir acessar a lista de pedidos do dia ou total (feature "Arrecadamento") e fazer novos pedidos de acordo com o desejo do cliente (feature "Novo Pedido"). 
+A feature "Novo Pedido" registra os elementos do pedido do cliente, bem como o valor do pedido.
+
+Elementos do Pedido
+
+| Nome   |  Descrição       
+|-------------|----------------|
+| Sanduíche | Refeição principal |
+| Acompanhamento| Refeição extra ou ingrediente adicional ao sanduíche |
+| Bebida | Acompanhamento líquido |
+
+Opções de Sanduíches
+
+| Nome   |  Descrição   | 
+|-------------|----------------|
+| Classic Burger | 1 hambúrger de carne bovina 150g, queijo cheddar, alface, tomate, cebola caramelizada, maionese, mostarda, pão de hambúrguer |
+| Frango BBQ| Peito de frango grelhado 100g, Bacon, Queijo suíço, Alface, Tomate, Molho barbecue, Maionese, Pão integral |
+| Veggie Burger| Hambúrguer vegetariano de grãos 150g, Queijo feta, Abacate, Rúcula, Tomate, Cebola roxa, Maionese de alho, Pão de trigo integral |
+| Peixe Bliss| Filé de peixe empanado 100g, Repolho roxo ralado, Molho tártaro, Tomate, Picles, Pão de centeio |
+
+Opções de Acompanhamentos
+
+| Nome   |  Sanduíches aplicáveis       
+|-------------|----------------|
+| Batatas Fritas Tradicionais | Classic Burger, Frango BBQ, Veggie Burger, Peixe Bliss |
+| Batatas Fritas com Bacon| Classic Burger, Frango BBQ, Peixe Bliss |
+| Milkshake de Baunilha | Classic Burger, Frango BBQ |
+| Milkshake de Chocolate | Classic Burger, Frango BBQ |
+| Onion Rings | Classic Burger, Frango BBQ, Peixe Bliss |
+| Salada de Frutas Frescas | Veggie Burger |
+| Smoothie Verde | Veggie Burger |
+| Salada de Couve com Molho de Limão | Veggie Burger |
+| Chips de Batata-Doce Assados | Classic Burger, Frango BBQ, Peixe Bliss |
+
+Opções de Bebidas
+
+| Nome   |  Descrição       
+|-------------|----------------|
+| Coca-Cola Lata 250 mL | Refrigerante |
+| Coca-Cola 600 mL| Refrigerante |
+| Coca-Cola 2L | Refrigerante |
+| Limonada com Hortelã 250 mL| Suco |
+| Suco de Maçã com Canela 250 mL| Suco |
+| Limonada com Morango 250 mL| Suco |
+| Suco de Abacaxi com Hortelã 250 mL| Suco |
+| Água com Gás e Limão 250 mL| Água |
+| Água de Coco Natural 250 mL| Água |
+| Suco de Maracujá com Gengibre 250 mL| Suco |
+
+Opções de Combos
+
+| Nome   |  Descrição       
+|-------------|----------------|
+| Burger Bliss Combo | Classic Burger, Batatas Fritas Tradicionais, Onion Rings, Coca-Cola Lata 250mL |
+| BBQ Combo| Frango BBQ, Batatas Fritas com Bacon, Onion Rings, Limonada com Morango 250mL |
+| Green Combo | Veggie Burger, Saladas de Frutas Frescas, Smoothie Verde, Limonada com Hortelã 250mL |
+| Oceanic Combo | Peixe Bliss, Chips de Batata-Doce Assados, Salada de Couve com Molho de Limão, Milkshake de Baunilha |
 
 <div class="formalpara-title">
 
@@ -87,6 +143,7 @@ A table with quality goals and concrete scenarios, ordered by priorities
 |-------------|----------------|
 | Gerente da lanchonete | Consegue acessar e entender a função arrecadamento |
 | Operador de caixa | Consegue acessar e entender a função "novo pedido" |
+| Cliente | Consegue solicitar ao Operador de caixa o uso da função "novo pedido" |
 
 # Architecture Constraints
 
