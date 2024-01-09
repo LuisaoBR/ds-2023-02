@@ -90,6 +90,48 @@ Opções de Combos
 | Green Combo | Veggie Burger, Saladas de Frutas Frescas, Smoothie Verde, Limonada com Hortelã 250mL |
 | Oceanic Combo | Peixe Bliss, Chips de Batata-Doce Assados, Salada de Couve com Molho de Limão, Milkshake de Baunilha |
 
+Tabela de Preços
+
+| Acompanhamento   |  Preço R$     
+|-------------|----------------|
+| Batatas Fritas Tradicionais | 8,00 |
+| Batatas Fritas com Bacon| 10,00 |
+| Milkshake de Baunilha | 15,00 |
+| Milkshake de Chocolate | 15,00 |
+| Onion Rings | 10,00 |
+| Salada de Frutas Frescas | 11,00 |
+| Smoothie Verde | 12,00 |
+| Salada de Couve com Molho de Limão | 11,00 |
+| Chips de Batata-Doce Assados | 10,00 |
+
+| Bebida   |  Preço R$     
+|-------------|----------------|
+| Coca-Cola Lata 250 mL | 5,00 |
+| Coca-Cola 600 mL| 8,00 |
+| Coca-Cola 2L | 12,00 |
+| Limonada com Hortelã 250 mL | 6,00 |
+| Suco de Maçã com Canela 250 mL | 6,00 |
+| Limonada com Morango 250 mL | 6,00 |
+| Suco de Abacaxi com Hortelã | 6,00 |
+| Água com Gás e Limão 250 mL | 4,00 |
+| Água de Coco Natural 250 mL | 4,00 |
+| Suco de Maracujá com Gengibre 250 mL | 6,00 |
+
+| Sanduíche   |  Preço R$     
+|-------------|----------------|
+| Classic Burger | 32,00 |
+| Frango BBQ| 30,00 |
+| Veggie Burger | 28,00 |
+| Peixe Bliss | 30,00 |
+
+| Combo  |  Preço R$     
+|-------------|----------------|
+| Burger Bliss Combo | 50,00 |
+| BBQ Combo| 50,00 |
+| Green Combo | 50,00 |
+| Oceanic Combo | 50,00 |
+
+
 <div class="formalpara-title">
 
 **Motivação**
