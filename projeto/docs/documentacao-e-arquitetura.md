@@ -665,11 +665,13 @@ Tabular or free form text.
 
 
 
-# Glossary
+# Glossário
 
 <div class="formalpara-title">
 
-**Contents**
+**Conteúdos**
+
+- Bebida: "bebida" é um item do menu que os clientes podem selecionar para incluir em seus pedidos, representado como uma entidade com atributos como nome, descrição e preço, tal qual produto, e também tipo, como chá, refrigerante, água ou suco.
 
 </div>
 
