@@ -135,7 +135,32 @@ Processo - Novo Pedido
 Diagrama UML de Classes
 
 
-![Design - UML](https://github.com/LuisaoBR/ds-2023-02/assets/109095266/26faf5ac-8d15-4dc1-92a4-900d124d9544)
+
+![Design - UML (1)](https://github.com/LuisaoBR/ds-2023-02/assets/109095266/a08b85ab-5a6d-4a9c-85af-2b25ab016358)
+
+
+
+Modelo de Dados
+
+
+
+![Design - Modelo de Dados](https://github.com/LuisaoBR/ds-2023-02/assets/109095266/2e6a3b19-64d5-47ba-b173-9d4e75e16fce)
+
+
+Registro de um novo pedido:
+
+Pedido realizado corresponde a um sanduíche pronto, com ingredientes bem definidos, acrescidos de acompanhamentos e personalização (retirada de ingredientes específicos escolhidos pelo cliente (ator que faz o pedido).
+Os acompanhamentos são ingredientes bônus (Ex: molho, bacon, batatas fritas) e possuem um preço unitário que será adicionado ao valor final do pedido.
+Os ingredientes removíveis são específicos para cada sanduíche, ou seja, o cliente não pode remover quaisquer ingredientes que desejar, e sim alguns ingredientes definidos pela organização. Vale ressaltar que a remoção de ingredientes NÃO altera o valor final do pedido.
+No contexto dos COMBOS vendidos pela organização, a lógica é similar. Um combo consiste em um sanduíche específico + um acompanhamento + uma bebida. Os acompanhamentos do combo podem ser trocados por outros acompanhamentos específicos, definidos pela organização, de mesmo custo, CONTUDO, não podem ser removidos, ou seja, o valor final do combo não pode ser reduzido. Após finalização e pagamento do pedido, o valor final é registrado ao fluxo de caixa da organização, sendo adicionado aos outros valores de pedidos realizados durante o dia, para fim de contabilização da arrecadação diária.
+
+
+
+Persistência de Dados:
+
+Os valores dos pedidos realizados e pagos em cada dia são registrados, de forma individual, bem como o Total diário arrecadado, que consiste na soma dos valores dos pedidos realizados e pagos durante o dia. Também são registrados detalhes dos pedidos, como os combos/sanduíches/acompanhamentos vendidos. Os dados são armazenados localmente.
+
+
 
 
 <div class="formalpara-title">
@@ -144,8 +169,7 @@ Diagrama UML de Classes
 
 </div>
 
-Facilitar o armazenamento dos pedidos feito para referência do negócio e o funcionamento do caixa, que pode facilmente pedir um combo ou um pedido com várias modificações.
-
+Facilitar o armazenamento dos pedidos feitos, bem como os valores arrecadados, para referência do negócio e o funcionamento do caixa, visto que o Gerente da Sanduicheria possui o objetivo de traçar novas estratégias de vendas e marketing, a fim de agradar os clientes e atrair novos. Para que isso seja possível, é necessário mensurar o desempenho das Refeições e Combos, observando quais os mais vendidos e mais rentáveis.
 ## Objetivos de qualidade
 
 <div class="formalpara-title">
