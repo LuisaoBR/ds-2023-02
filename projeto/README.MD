@@ -172,27 +172,10 @@ Os valores dos pedidos realizados e pagos em cada dia são registrados, de forma
 Facilitar o armazenamento dos pedidos feitos, bem como os valores arrecadados, para referência do negócio e o funcionamento do caixa, visto que o Gerente da Sanduicheria possui o objetivo de traçar novas estratégias de vendas e marketing, a fim de agradar os clientes e atrair novos. Para que isso seja possível, é necessário mensurar o desempenho das Refeições e Combos, observando quais os mais vendidos e mais rentáveis.
 ## Objetivos de qualidade
 
-<div class="formalpara-title">
-
-**Conteúdos**
-
-</div>
 
 
 
-<div class="formalpara-title">
 
-**Motivation**
-
-</div>
-
-
-
-<div class="formalpara-title">
-
-**Form**
-
-</div>
 
 
 
@@ -226,40 +209,17 @@ Cliente:
 ![Persona_ Cliente](https://github.com/LuisaoBR/ds-2023-02/assets/109095266/57b37a50-b047-4c92-b06e-eb2f5b009cc6)
 
 
-# Architecture Constraints
-
-<div class="formalpara-title">
-
-**Contents**
-
-</div>
 
 
 
-<div class="formalpara-title">
-
-**Motivation**
-
-</div>
 
 
-
-<div class="formalpara-title">
-
-**Form**
-
-</div>
-
-
-
-See [Architecture Constraints](https://docs.arc42.org/section-2/) in the
-arc42 documentation.
 
 # Escopo de Sistema e Contexto
 
 <div class="formalpara-title">
 
-**Conteúdo**
+**"Nossa Idéia"**
 
 </div>
 
@@ -285,13 +245,3 @@ Como o sistema só atende um único negócio, não é necessário a comunicaçã
 - Combo: Um combo, no contexto da aplicação, consiste em um sanduíche (lanche), uma bebida e um acompanhamento, oferecendo uma refeição completa e conveniente para os clientes. Essa abordagem é popular porque permite que os clientes façam um único pedido que inclui todos os elementos necessários para uma refeição satisfatória. Ao oferecer um combo, a lanchonete simplifica o processo de escolha para o cliente e muitas vezes fornece um preço mais atrativo em comparação com a compra dos itens separadamente.
 
 </div>
-
-
-
-<div class="formalpara-title">
-
-**Motivation**
-
-</div>
-
-
