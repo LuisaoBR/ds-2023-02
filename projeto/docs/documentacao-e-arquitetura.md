@@ -136,7 +136,10 @@ Diagrama UML de Classes
 
 
 
-![Design - UML (1)](https://github.com/LuisaoBR/ds-2023-02/assets/109095266/a08b85ab-5a6d-4a9c-85af-2b25ab016358)
+
+
+
+![Design - UML](https://www.planttext.com/api/plantuml/png/ZLB9IWGn4BtdAug-py6hI3FZA3WWEj3-G7LIp0IoD5a4KV_TTDhqPXyyPQctLILx7z25g1NZ2hs7HqMQJB2VZ4pKy2OxouIDhIBe777BljalyfvQAN2EIwNX4dQxhtgKAeG6ZOYINsdEEJY77y_I1xY5koOuQIurg7J6axau4Z8fa3-ZSFXVy6l7fJKeVHzeDDtETE1MTsYk-AVfn5qMjmLEWVGvEOj4NiGhm1fa89EpJ5YeRggabvUrugRQH2rwEMaJC4G_5DWm47Z0W4_MOU-uSdkfPdaPEsQ_ezLjifi6vSjkFG1S7CjRjtafd-GTbNMzTPQTEuzzxYdfQ_K3)
 
 
 
@@ -154,6 +157,18 @@ Os acompanhamentos são ingredientes bônus (Ex: molho, bacon, batatas fritas) e
 Os ingredientes removíveis são específicos para cada sanduíche, ou seja, o cliente não pode remover quaisquer ingredientes que desejar, e sim alguns ingredientes definidos pela organização. Vale ressaltar que a remoção de ingredientes NÃO altera o valor final do pedido.
 No contexto dos COMBOS vendidos pela organização, a lógica é similar. Um combo consiste em um sanduíche específico + um acompanhamento + uma bebida. Os acompanhamentos do combo podem ser trocados por outros acompanhamentos específicos, definidos pela organização, de mesmo custo, CONTUDO, não podem ser removidos, ou seja, o valor final do combo não pode ser reduzido. Após finalização e pagamento do pedido, o valor final é registrado ao fluxo de caixa da organização, sendo adicionado aos outros valores de pedidos realizados durante o dia, para fim de contabilização da arrecadação diária.
 
+
+
+
+![Prototipo Tela Burger House](https://github.com/LuisaoBR/ds-2023-02/assets/109095266/48c70f6f-a2c1-4da3-b524-38e13d33a4fe)
+
+O objetivo desse protótipo de tela é facilitar a compreensão das principais funcionalidades do software, que são o Registro de um Novo Pedido, incluindo a personalização dos Elementos do pedido e o registro do valor arrecadado para o faturamento.
+Nessa tela, é possível personalizar um novo pedido, escolhendo dentre as opções de elementos disponíveis. Na aba "Categoria", é possível encontras as opções de elementos de um pedido, sendo elas "Sanduíche", "Acompanhamentos", "Bebidas" e "Combos". É possível adicionar mais de um elemento a um pedido.
+
+
+![Burger House - Tela Faturamento](https://github.com/LuisaoBR/ds-2023-02/assets/109095266/397e8e14-05fa-42ba-a6f2-6df9d244cfc0)
+
+O objetivo desse protótipo de tela é ilustrar a tela de Consulta de Faturamento, onde é possível vizualizar todos os pedidos realizados, com um filtro por data. Ademais, é possível visualizar os detalhes de um pedido, bem como cancelar o mesmo.
 
 
 Persistência de Dados:
