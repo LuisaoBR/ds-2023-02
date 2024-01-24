@@ -78,7 +78,7 @@ Opções de Combos
 | Green Combo | Veggie Burger, Saladas de Frutas Frescas, Smoothie Verde, Limonada com Hortelã 250mL |
 | Oceanic Combo | Peixe Bliss, Chips de Batata-Doce Assados, Salada de Couve com Molho de Limão, Milkshake de Baunilha |
 
-Tabela de Preços
+# Cardápio
 
 | Acompanhamento   |  Preço R$     
 |-------------|----------------|
@@ -91,6 +91,9 @@ Tabela de Preços
 | Smoothie Verde | 12,00 |
 | Salada de Couve com Molho de Limão | 11,00 |
 | Chips de Batata-Doce Assados | 10,00 |
+
+![Cardapio - Acompanhamentos](https://github.com/LuisaoBR/ds-2023-02/assets/109095266/5c67b863-8bee-4940-8e6d-3515c1e14338)
+
 
 | Bebida   |  Preço R$     
 |-------------|----------------|
@@ -105,12 +108,18 @@ Tabela de Preços
 | Água de Coco Natural 250 mL | 4,00 |
 | Suco de Maracujá com Gengibre 250 mL | 6,00 |
 
+
+![Cardapio - Bebidas](https://github.com/LuisaoBR/ds-2023-02/assets/109095266/daf62ee3-cfbc-4352-9c01-997bafd8ea51)
+
 | Sanduíche   |  Preço R$     
 |-------------|----------------|
 | Classic Burger | 32,00 |
 | Frango BBQ| 30,00 |
 | Veggie Burger | 28,00 |
 | Peixe Bliss | 30,00 |
+
+
+![Cardapio - Sanduiches](https://github.com/LuisaoBR/ds-2023-02/assets/109095266/dde306cb-d39f-4c2e-a61d-7af8120c43ff)
 
 | Combo  |  Preço R$     
 |-------------|----------------|
@@ -121,6 +130,9 @@ Tabela de Preços
 
 
 
+![Cardapio - Combos](https://github.com/LuisaoBR/ds-2023-02/assets/109095266/24923fc0-c6fa-4d72-a3ca-39aafbbe1a91)
+
+# Diagramas e Processos
 
 
 Processo - Novo Pedido
@@ -136,7 +148,10 @@ Diagrama UML de Classes
 
 
 
-![Design - UML (1)](https://github.com/LuisaoBR/ds-2023-02/assets/109095266/a08b85ab-5a6d-4a9c-85af-2b25ab016358)
+
+
+
+![Design - UML](https://www.planttext.com/api/plantuml/png/ZLB9IWGn4BtdAug-py6hI3FZA3WWEj3-G7LIp0IoD5a4KV_TTDhqPXyyPQctLILx7z25g1NZ2hs7HqMQJB2VZ4pKy2OxouIDhIBe777BljalyfvQAN2EIwNX4dQxhtgKAeG6ZOYINsdEEJY77y_I1xY5koOuQIurg7J6axau4Z8fa3-ZSFXVy6l7fJKeVHzeDDtETE1MTsYk-AVfn5qMjmLEWVGvEOj4NiGhm1fa89EpJ5YeRggabvUrugRQH2rwEMaJC4G_5DWm47Z0W4_MOU-uSdkfPdaPEsQ_ezLjifi6vSjkFG1S7CjRjtafd-GTbNMzTPQTEuzzxYdfQ_K3)
 
 
 
@@ -156,6 +171,18 @@ No contexto dos COMBOS vendidos pela organização, a lógica é similar. Um com
 
 
 
+
+![Prototipo Tela Burger House](https://github.com/LuisaoBR/ds-2023-02/assets/109095266/48c70f6f-a2c1-4da3-b524-38e13d33a4fe)
+
+O objetivo desse protótipo de tela é facilitar a compreensão das principais funcionalidades do software, que são o Registro de um Novo Pedido, incluindo a personalização dos Elementos do pedido e o registro do valor arrecadado para o faturamento.
+Nessa tela, é possível personalizar um novo pedido, escolhendo dentre as opções de elementos disponíveis. Na aba "Categoria", é possível encontras as opções de elementos de um pedido, sendo elas "Sanduíche", "Acompanhamentos", "Bebidas" e "Combos". É possível adicionar mais de um elemento a um pedido.
+
+
+![Burger House - Tela Faturamento](https://github.com/LuisaoBR/ds-2023-02/assets/109095266/397e8e14-05fa-42ba-a6f2-6df9d244cfc0)
+
+O objetivo desse protótipo de tela é ilustrar a tela de Consulta de Faturamento, onde é possível vizualizar todos os pedidos realizados, com um filtro por data. Ademais, é possível visualizar os detalhes de um pedido, bem como cancelar o mesmo.
+
+
 Persistência de Dados:
 
 Os valores dos pedidos realizados e pagos em cada dia são registrados, de forma individual, bem como o Total diário arrecadado, que consiste na soma dos valores dos pedidos realizados e pagos durante o dia. Também são registrados detalhes dos pedidos, como os combos/sanduíches/acompanhamentos vendidos. Os dados são armazenados localmente.
@@ -172,10 +199,27 @@ Os valores dos pedidos realizados e pagos em cada dia são registrados, de forma
 Facilitar o armazenamento dos pedidos feitos, bem como os valores arrecadados, para referência do negócio e o funcionamento do caixa, visto que o Gerente da Sanduicheria possui o objetivo de traçar novas estratégias de vendas e marketing, a fim de agradar os clientes e atrair novos. Para que isso seja possível, é necessário mensurar o desempenho das Refeições e Combos, observando quais os mais vendidos e mais rentáveis.
 ## Objetivos de qualidade
 
+<div class="formalpara-title">
+
+**Conteúdos**
+
+</div>
 
 
 
+<div class="formalpara-title">
 
+**Motivation**
+
+</div>
+
+
+
+<div class="formalpara-title">
+
+**Form**
+
+</div>
 
 
 
@@ -211,15 +255,11 @@ Cliente:
 
 
 
-
-
-
-
 # Escopo de Sistema e Contexto
 
 <div class="formalpara-title">
 
-**"Nossa Idéia"**
+**Conteúdo**
 
 </div>
 
@@ -234,6 +274,12 @@ Como o sistema só atende um único negócio, não é necessário a comunicaçã
 
 <div class="formalpara-title">
 
+
+
+
+
+
+
 # Glossário
 
 <div class="formalpara-title">
@@ -243,5 +289,17 @@ Como o sistema só atende um único negócio, não é necessário a comunicaçã
 - Bebida: "bebida" é um item do menu que os clientes podem selecionar para incluir em seus pedidos, representado como uma entidade com atributos como nome, descrição e preço, tal qual produto, e também tipo, como chá, refrigerante, água ou suco.
 - Acompanhamento: "acompanhamento" geralmente se refere a um item adicional que complementa o pedido principal, como batatas fritas, salada, ou algo similar, representado como uma entidade com atributos como nome, descrição e preço, herdados diretamente da classe produto.
 - Combo: Um combo, no contexto da aplicação, consiste em um sanduíche (lanche), uma bebida e um acompanhamento, oferecendo uma refeição completa e conveniente para os clientes. Essa abordagem é popular porque permite que os clientes façam um único pedido que inclui todos os elementos necessários para uma refeição satisfatória. Ao oferecer um combo, a lanchonete simplifica o processo de escolha para o cliente e muitas vezes fornece um preço mais atrativo em comparação com a compra dos itens separadamente.
+- Elemento de um Pedido: engloba os sanduíches, acompanhamentos, bebidas e combos. Todos esses elementos podem fazer parte de um pedido.
+- Cardápio: contém a descrição e os preços de todos os possíveis Elementos de um Pedido.
 
 </div>
+
+
+
+<div class="formalpara-title">
+
+**Motivation**
+
+</div>
+
+
