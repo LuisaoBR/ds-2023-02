@@ -78,7 +78,7 @@ Opções de Combos
 | Green Combo | Veggie Burger, Saladas de Frutas Frescas, Smoothie Verde, Limonada com Hortelã 250mL |
 | Oceanic Combo | Peixe Bliss, Chips de Batata-Doce Assados, Salada de Couve com Molho de Limão, Milkshake de Baunilha |
 
-Tabela de Preços
+# Cardápio
 
 | Acompanhamento   |  Preço R$     
 |-------------|----------------|
@@ -91,6 +91,9 @@ Tabela de Preços
 | Smoothie Verde | 12,00 |
 | Salada de Couve com Molho de Limão | 11,00 |
 | Chips de Batata-Doce Assados | 10,00 |
+
+![Cardapio - Acompanhamentos](https://github.com/LuisaoBR/ds-2023-02/assets/109095266/5c67b863-8bee-4940-8e6d-3515c1e14338)
+
 
 | Bebida   |  Preço R$     
 |-------------|----------------|
@@ -105,12 +108,18 @@ Tabela de Preços
 | Água de Coco Natural 250 mL | 4,00 |
 | Suco de Maracujá com Gengibre 250 mL | 6,00 |
 
+
+![Cardapio - Bebidas](https://github.com/LuisaoBR/ds-2023-02/assets/109095266/daf62ee3-cfbc-4352-9c01-997bafd8ea51)
+
 | Sanduíche   |  Preço R$     
 |-------------|----------------|
 | Classic Burger | 32,00 |
 | Frango BBQ| 30,00 |
 | Veggie Burger | 28,00 |
 | Peixe Bliss | 30,00 |
+
+
+![Cardapio - Sanduiches](https://github.com/LuisaoBR/ds-2023-02/assets/109095266/dde306cb-d39f-4c2e-a61d-7af8120c43ff)
 
 | Combo  |  Preço R$     
 |-------------|----------------|
@@ -121,6 +130,9 @@ Tabela de Preços
 
 
 
+![Cardapio - Combos](https://github.com/LuisaoBR/ds-2023-02/assets/109095266/24923fc0-c6fa-4d72-a3ca-39aafbbe1a91)
+
+# Diagramas e Processos
 
 
 Processo - Novo Pedido
@@ -241,34 +253,7 @@ Cliente:
 ![Persona_ Cliente](https://github.com/LuisaoBR/ds-2023-02/assets/109095266/57b37a50-b047-4c92-b06e-eb2f5b009cc6)
 
 
-# Architecture Constraints
 
-<div class="formalpara-title">
-
-**Contents**
-
-</div>
-
-
-
-<div class="formalpara-title">
-
-**Motivation**
-
-</div>
-
-
-
-<div class="formalpara-title">
-
-**Form**
-
-</div>
-
-
-
-See [Architecture Constraints](https://docs.arc42.org/section-2/) in the
-arc42 documentation.
 
 # Escopo de Sistema e Contexto
 
@@ -291,416 +276,7 @@ Como o sistema só atende um único negócio, não é necessário a comunicaçã
 
 
 
-## Technical Context
 
-<div class="formalpara-title">
-
-**Contents**
-
-</div>
-
-
-
-<div class="formalpara-title">
-
-**Motivation**
-
-</div>
-
-
-
-<div class="formalpara-title">
-
-**Form**
-
-</div>
-
-
-
-**\<Diagram or Table>**
-
-**\<optionally: Explanation of technical interfaces>**
-
-**\<Mapping Input/Output to Channels>**
-
-# Solution Strategy
-
-<div class="formalpara-title">
-
-**Contents**
-
-</div>
-
-
-<div class="formalpara-title">
-
-**Motivation**
-
-</div>
-
-
-
-<div class="formalpara-title">
-
-**Form**
-
-</div>
-
-
-
-# Building Block View
-
-<div class="formalpara-title">
-
-**Content**
-
-</div>
-
-
-<div class="formalpara-title">
-
-**Motivation**
-
-</div>
-
-
-
-<div class="formalpara-title">
-
-**Form**
-
-</div>
-
-
-
-## Whitebox Overall System
-
-
-
-***\<Overview Diagram>***
-
-
-
-### \<Name black box 1>
-
-
-
-*\<Purpose/Responsibility>*
-
-*\<Interface(s)>*
-
-*\<(Optional) Quality/Performance Characteristics>*
-
-*\<(Optional) Directory/File Location>*
-
-*\<(Optional) Fulfilled Requirements>*
-
-*\<(optional) Open Issues/Problems/Risks>*
-
-### \<Name black box 2>
-
-*\<black box template>*
-
-### \<Name black box n>
-
-*\<black box template>*
-
-### \<Name interface 1>
-
-…
-
-### \<Name interface m>
-
-## Level 2
-
-
-
-### White Box *\<building block 1>*
-
-
-
-*\<white box template>*
-
-### White Box *\<building block 2>*
-
-*\<white box template>*
-
-…
-
-### White Box *\<building block m>*
-
-*\<white box template>*
-
-## Level 3
-
-
-
-### White Box \<\_building block x.1\_\>
-
-
-
-*\<white box template>*
-
-### White Box \<\_building block x.2\_\>
-
-
-
-### White Box \<\_building block y.1\_\>
-
-
-# Runtime View
-
-<div class="formalpara-title">
-
-**Contents**
-
-</div>
-
-
-
-<div class="formalpara-title">
-
-**Motivation**
-
-</div>
-
-
-
-<div class="formalpara-title">
-
-**Form**
-
-</div>
-
-
-
-## \<Runtime Scenario 1>
-
--   *\<insert runtime diagram or textual description of the scenario>*
-
--   *\<insert description of the notable aspects of the interactions
-    between the building block instances depicted in this diagram.>*
-
-## \<Runtime Scenario 2>
-
-## …
-
-## \<Runtime Scenario n>
-
-# Deployment View
-
-<div class="formalpara-title">
-
-**Content**
-
-</div>
-
-
-<div class="formalpara-title">
-
-**Motivation**
-
-</div>
-
-
-
-## Infrastructure Level 1
-
-
-
-***\<Overview Diagram>***
-
-Motivation  
-*\<explanation in text form>*
-
-Quality and/or Performance Features  
-*\<explanation in text form>*
-
-Mapping of Building Blocks to Infrastructure  
-*\<description of the mapping>*
-
-## Infrastructure Level 2
-
-
-
-
-### *\<Infrastructure Element 1>*
-
-*\<diagram + explanation>*
-
-### *\<Infrastructure Element 2>*
-
-*\<diagram + explanation>*
-
-…
-
-### *\<Infrastructure Element n>*
-
-*\<diagram + explanation>*
-
-# Cross-cutting Concepts
-
-<div class="formalpara-title">
-
-**Content**
-
-</div>
-
-
-
-<div class="formalpara-title">
-
-**Motivation**
-
-</div>
-
-
-<div class="formalpara-title">
-
-**Form**
-
-</div>
-
-
-
-<div class="formalpara-title">
-
-**Structure**
-
-</div>
-
-
-
-## *\<Concept 1>*
-
-*\<explanation>*
-
-## *\<Concept 2>*
-
-*\<explanation>*
-
-…
-
-## *\<Concept n>*
-
-*\<explanation>*
-
-# Architecture Decisions
-
-<div class="formalpara-title">
-
-**Contents**
-
-</div>
-
-
-<div class="formalpara-title">
-
-**Motivation**
-
-</div>
-
-
-
-<div class="formalpara-title">
-
-**Form**
-
-</div>
-
-
-
-# Quality Requirements
-
-<div class="formalpara-title">
-
-**Content**
-
-</div>
-
-
-
-<div class="formalpara-title">
-
-**Motivation**
-
-</div>
-
-
-
-## Quality Tree
-
-<div class="formalpara-title">
-
-**Content**
-
-</div>
-
-
-<div class="formalpara-title">
-
-**Motivation**
-
-</div>
-
-
-
-<div class="formalpara-title">
-
-**Form**
-
-</div>
-
-
-
-## Quality Scenarios
-
-<div class="formalpara-title">
-
-**Contents**
-
-</div>
-
-
-
-<div class="formalpara-title">
-
-**Motivation**
-
-</div>
-
-
-
-<div class="formalpara-title">
-
-**Form**
-
-</div>
-
-Tabular or free form text.
-
-# Risks and Technical Debts
-
-<div class="formalpara-title">
-
-**Contents**
-
-</div>
-
-
-<div class="formalpara-title">
-
-**Motivation**
-
-</div>
-
-
-
-<div class="formalpara-title">
-
-**Form**
-
-</div>
 
 
 
@@ -713,6 +289,8 @@ Tabular or free form text.
 - Bebida: "bebida" é um item do menu que os clientes podem selecionar para incluir em seus pedidos, representado como uma entidade com atributos como nome, descrição e preço, tal qual produto, e também tipo, como chá, refrigerante, água ou suco.
 - Acompanhamento: "acompanhamento" geralmente se refere a um item adicional que complementa o pedido principal, como batatas fritas, salada, ou algo similar, representado como uma entidade com atributos como nome, descrição e preço, herdados diretamente da classe produto.
 - Combo: Um combo, no contexto da aplicação, consiste em um sanduíche (lanche), uma bebida e um acompanhamento, oferecendo uma refeição completa e conveniente para os clientes. Essa abordagem é popular porque permite que os clientes façam um único pedido que inclui todos os elementos necessários para uma refeição satisfatória. Ao oferecer um combo, a lanchonete simplifica o processo de escolha para o cliente e muitas vezes fornece um preço mais atrativo em comparação com a compra dos itens separadamente.
+- Elemento de um Pedido: engloba os sanduíches, acompanhamentos, bebidas e combos. Todos esses elementos podem fazer parte de um pedido.
+- Cardápio: contém a descrição e os preços de todos os possíveis Elementos de um Pedido.
 
 </div>
 
